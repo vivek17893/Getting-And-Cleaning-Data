@@ -40,7 +40,7 @@ cleandata<-cbind(finaldataset$sno,finaldataset$yno,finalrequireddataset)
 colnames(cleandata)[which(names(cleandata) == "finaldataset$yno")] <- "activity"
 colnames(cleandata)[which(names(cleandata) == "finaldataset$sno")] <- "subject"
 colnames(cleandata)<-gsub("-","",colnames(cleandata))
-write.table(cleandata, "cleandata.txt")
+write.table(cleandata, "cleandata.txt",row.names = FALSE)
 
 
 #From the data set in step 4, create a second, independent tidy data set with the average 
@@ -48,4 +48,5 @@ write.table(cleandata, "cleandata.txt")
 install.packages("reshape2")
 library(reshape2)
 averagedata <- ddply(cleandata, .(activity,subject), function(cleandata) colMeans(cleandata[, 3:66]))
-write.table(averagedata, "averagedata.txt")
+write.table(averagedata, "averagedata.txt",row.names = FALSE)
+
