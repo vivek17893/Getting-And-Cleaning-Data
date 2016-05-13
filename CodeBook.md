@@ -1,6 +1,7 @@
 #CodeBook
 CodeBook provides additional information about variables, the data, and any transformations or work that you performed to clean up the data
 #Variables
+The variables in the tidy data are:
 [1] "activity"                "subject"                 "tbodyaccmeanx"          
  [4] "tbodyaccmeany"           "tbodyaccmeanz"           "tbodyaccstdx"           
  [7] "tbodyaccstdy"            "tbodyaccstdz"            "tgravityaccmeanx"       
