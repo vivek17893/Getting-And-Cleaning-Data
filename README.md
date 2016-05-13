@@ -7,7 +7,7 @@ You should also include a README.md in the repo with your scripts. This repo exp
 #Steps
 Download the data from the link given below
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-Load the data into R n perform the required tasks in a RScript and upload it.
+Load the data into R and perform the required tasks in a RScript and upload it.
 #RScript
 The RScript must do the following:
 1.Merges the training and the test sets to create one data set.
