@@ -22,6 +22,7 @@ CodeBook provides additional information about variables, the data, and any tran
 [55] "fbodygyromeanx"          "fbodygyromeany"          "fbodygyromeanz"         
 [58] "fbodygyrostdx"           "fbodygyrostdy"           "fbodygyrostdz"          
 [61] "fbodyaccmagmean"         "fbodyaccmagstd"          "fbodybodyaccjerkmagmean"
+
 [64] "fbodybodyaccjerkmagstd"  "fbodybodygyromagmean"    "fbodybodygyromagstd" 
 
 #Data
